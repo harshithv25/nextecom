@@ -24,7 +24,7 @@
   "dependencies": {
     "@payloadcms/bundler-webpack": "^1.0.0",
     "@payloadcms/db-mongodb": "^1.0.0",
-    "@payloadcms/plugin-cloud": "^3.0.0",
+    "@payloadcms/plugin-cloud": "^3.0.1",
     "@payloadcms/plugin-nested-docs": "^1.0.8",
     "@payloadcms/plugin-redirects": "^1.0.0",
     "@payloadcms/plugin-seo": "^1.0.10",
@@ -36,8 +36,8 @@
     "dotenv": "^8.2.0",
     "escape-html": "^1.0.3",
     "express": "^4.19.2",
-    "next": "13.5.2",
-    "payload": "^2.0.7",
+    "next": "^14.2.4",
+    "payload": "^2.23.1",
     "payload-admin-bar": "^1.0.6",
     "qs": "6.11.2",
     "react": "^18.2.0",
@@ -71,5 +71,6 @@
     "slate": "0.91.4",
     "ts-node": "10.9.1",
     "typescript": "^4.8.4"
-  }
+  },
+  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774"
 }

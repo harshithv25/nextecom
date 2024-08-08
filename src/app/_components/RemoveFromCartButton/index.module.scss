@@ -4,4 +4,6 @@
   all: unset;
   cursor: pointer;
   @extend %label;
+  background: none;
+  outline: none;
 }

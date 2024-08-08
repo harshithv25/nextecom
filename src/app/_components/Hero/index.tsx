@@ -4,11 +4,13 @@ import { Page } from '../../../payload/payload-types'
 import { HighImpactHero } from '../../_heros/HighImpact'
 import { LowImpactHero } from '../../_heros/LowImpact'
 import { MediumImpactHero } from '../../_heros/MediumImpact'
+import { CustomHero } from '../../_heros/CustomHero'
 
 const heroes = {
   highImpact: HighImpactHero,
   mediumImpact: MediumImpactHero,
   lowImpact: LowImpactHero,
+  customHero: CustomHero,
 }
 
 export const Hero: React.FC<Page['hero']> = props => {
@@ -22,3 +24,5 @@ export const Hero: React.FC<Page['hero']> = props => {
 
   return <HeroToRender {...props} />
 }
+
+//1:27
